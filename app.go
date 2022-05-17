@@ -14,7 +14,6 @@ func main() {
 	plusTiga := 3
 	var finalkey int
 	finalkey = originalKey
-	sum := 0
 	//originalScore := 10
 
 	if finishTime < dungeonTime {
@@ -48,13 +47,13 @@ func main() {
 
 		fmt.Print("You Get = ")
 		if dungeonTime%finishTime >= 13 {
-			fmt.Print(point*originalKey+30, " score")
+			fmt.Println(point*originalKey+30, " score ")
 			//untuk +3
 		} else if dungeonTime%finishTime >= 7 {
-			fmt.Print(point*originalKey+20, " score")
+			fmt.Println(point*originalKey+20, " score ")
 			//untuk +2
 		} else if dungeonTime%finishTime >= 1 {
-			fmt.Print(point*originalKey+10, " score")
+			fmt.Println(point*originalKey+10, " score ")
 			//untuk +1
 		}
 	}
@@ -68,12 +67,17 @@ func main() {
 	// ------------------------------------------------
 	// Belajar Loop
 	// 3 loops
-
-	for i := 1; i < 6; i++ {
+	sum := 0
+	for i := 2; i < 6; i++ {
 		sum += i
 	}
-	fmt.Println(sum)
+	fmt.Println(sum) // 1+2+3+4
 
+	f := 1
+	for f < 5 {
+		f *= 2
+	}
+	fmt.Println(f) //
 }
 
 // Belajar Loop
