@@ -14,6 +14,7 @@ func main() {
 	plusTiga := 3
 	var finalkey int
 	finalkey = originalKey
+	sum := 0
 	//originalScore := 10
 
 	if finishTime < dungeonTime {
@@ -63,4 +64,17 @@ func main() {
 	}*/
 	// Next Pengerjaan point every time doing keys
 	// max point 15 dungeon = 150 ( 10 every kenaikan key)
+
+	// ------------------------------------------------
+	// Belajar Loop
+	// 3 loops
+
+	for i := 1; i < 6; i++ {
+		sum += i
+	}
+	fmt.Println(sum)
+
 }
+
+// Belajar Loop
+// 3 loops
