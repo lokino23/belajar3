@@ -7,7 +7,7 @@ import (
 func main() {
 	dungeonName := "Mist of Tirna "
 	dungeonTime := 30
-	finishTime := 20
+	finishTime := 31
 	originalKey := 15
 	plusSatu := 1
 	plusDua := 2
@@ -79,11 +79,24 @@ func main() {
 	}
 	fmt.Println(f) //
 
-	rum := 0
+	/*rum := 0
 	for {
 		rum++ // forever??
 	}
-	fmt.Println(rum)
+	fmt.Println(rum)*/
+
+	// Conditional
+	x := 5
+	if x < 0 {
+		fmt.Println("A")
+	} else if x < 5 {
+		fmt.Println("B")
+	} else if x < 10 {
+		fmt.Println("C")
+	} else {
+		fmt.Println("D")
+	}
+
 }
 
 // Belajar Loop
