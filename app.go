@@ -78,6 +78,12 @@ func main() {
 		f *= 2
 	}
 	fmt.Println(f) //
+
+	rum := 0
+	for {
+		rum++ // forever??
+	}
+	fmt.Println(rum)
 }
 
 // Belajar Loop
