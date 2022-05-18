@@ -18,6 +18,8 @@ func main() {
 
 	if finishTime < dungeonTime {
 		fmt.Print("Congrats u Time : ", dungeonName)
+	} else {
+		fmt.Println("Sorry u depleted ur Key")
 	}
 	if finishTime < dungeonTime {
 		fmt.Print("You + ")
