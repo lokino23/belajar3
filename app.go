@@ -101,5 +101,8 @@ func main() {
 
 }
 
-// Belajar Loop
-// 3 loops
+// loop for each
+
+/*hello:= []string("hello", "world")
+for i, s := range strings {
+	fmt.Println(i,s)*/
