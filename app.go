@@ -46,7 +46,6 @@ func main() {
 	// max point 15 dungeon = 150 ( 10 every kenaikan key)
 	point := 10
 	if finishTime < dungeonTime {
-
 		fmt.Print("You Get = ")
 		if dungeonTime%finishTime >= 13 {
 			fmt.Println(point*originalKey+30, " score ")
